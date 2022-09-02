@@ -8,7 +8,7 @@ subtracao = float(valor1) - float(valor2)
 print("O total da subtração é: {}".format(subtracao))
 
 divisao = float(valor1) / float(valor2)
-print("O total da divisão é: {}".format(divisao))
+print("O total da divisão é: {0:.2f}".format(divisao))
 
 multiplicacao = float(valor1) * float(valor2)
 print("O total da multiplicação é: {}".format(multiplicacao))
